@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/answerList/answerList",
+    "pages/me/me",
+    "pages/description/description",
+    "pages/testDetail/testDetail",
+    "pages/jobFairs/jobFairs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFD954",
+    "navigationBarTitleText": "模拟面试",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#898989",
+    "selectedColor": "#000000",
+    "backgroundColor": "#FFD954",
+    "borderStyle":"black",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text": "面试",
+        "iconPath": "/img/tests_gray.png",
+        "selectedIconPath": "/img/tests.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "/img/account_gray.png",
+        "selectedIconPath": "/img/account.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

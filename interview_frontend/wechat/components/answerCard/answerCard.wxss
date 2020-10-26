@@ -1,0 +1,20 @@
+/* components/navBar.wxss */
+@import '../../app.wxss';
+.card_container{
+  margin: 40rpx;
+  background: white;
+  border-radius: 20rpx;
+}
+.avatar{
+  width: 60rpx;
+  height: 60rpx
+}
+.status{
+  width: 35rpx;
+  height: 35rpx
+}
+.start_button{
+  border-radius: 10rpx;
+  background-color: #FFD954;
+  padding: 5rpx 15rpx
+}

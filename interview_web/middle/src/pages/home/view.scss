@@ -1,0 +1,49 @@
+@function pr($px) { //$px为需要转换的字号
+  @return $px * 0.5px;
+}
+
+.home_gray_b{
+  background: #323232;
+}
+.header{
+  background: white;
+  padding: pr(30);
+  margin-bottom: pr(200)
+}
+.huge_font_logo{
+  font-size: pr(700);
+  font-weight: bolder;
+  color: white;
+  animation-name: fontAnimi;
+  animation-iteration-count: 1;
+  animation-duration: 3s;
+}
+.slogen{
+  margin-left: pr(500);
+  color: white;
+  animation-name: slogenAnimi;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+}
+.text_100{
+  font-size: pr(100);
+}
+.text_150{
+  font-size: pr(150);
+}
+@keyframes fontAnimi {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes slogenAnimi {
+  from {
+    transform: translateY(-200px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

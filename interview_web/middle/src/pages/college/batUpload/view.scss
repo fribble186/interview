@@ -1,0 +1,6 @@
+@function pr($px) { //$px为需要转换的字号
+  @return $px * 0.5px;
+}
+.ant-upload.ant-upload-drag{
+  height: auto !important
+}

@@ -1,0 +1,16 @@
+<!--components/navBar.ttml-->
+<view class="flex_column padding_20 card_container">
+  <view class="flex_row align_center">
+    <image src="../../img/avatar.png" class="avatar margin_right_40" />
+    <text class="title_text bold">{{job_fairs_detail.college_detail.name}}</text>
+  </view>
+  <view class="flex_column">
+    <view><text class="normal_text">{{job_fairs_detail.name}}</text></view>
+    <view><text class="desc_text gray">{{job_fairs_detail.desc}}</text></view>
+  </view>
+  <view class="flex_row">
+    <view><text class="mini_test gray">已有{{job_fairs_detail.enterprise_count}}企业入驻</text></view>
+    <view class="flex_1" />
+    <!-- <view class="start_button flex_row center"><text class="normal_text">了解详情</text></view> -->
+  </view>
+</view>

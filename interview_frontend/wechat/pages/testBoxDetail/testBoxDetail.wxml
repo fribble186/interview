@@ -1,0 +1,37 @@
+<!--pages/testDetail/testDetail.wxml-->
+<view class="flex_column height_100">
+  <view class="flex_row padding_20">
+    <text class="normal_text">姓名：</text>
+    <open-data type="userNickName" class="normal_text"></open-data>
+    <view class="flex_1" />
+    <text class="normal_text">总分：</text>
+    <text class="red normal_text">{{tb_data.isCorrect?tb_data.score:'还未批改'}}</text>
+  </view>
+  <view class="flex_row padding_20">
+    <text class="normal_text margin_right_20">评语</text>
+    <text class="normal_text">{{tb_data.desc?tb_data.desc:'暂无评语'}}</text>
+  </view>
+  <view class="flex_row padding_20">
+    <text class="normal_text margin_right_20">是否通过这次模拟面试？</text>
+    <text class="normal_text">{{tb_data.showBonus?'通过':'未通过'}}</text>
+  </view>
+
+  <view wx:for="{{pb_data}}" wx:for-item="problem" wx:for-index="problem_index" class="flex_column problem_container">
+    <view class="flex_row margin_bottom_20">
+      <text class="normal_text">第{{problem_index+1}}题</text>
+      <view class="flex_1" />
+      <text class="normal_text red">{{problem.score!==null ? '小分：'+problem.score+'分' : '还未评分'}}</text>
+    </view>
+    <text class="normal_text">{{problem.problem_box_problem.contents}}</text>
+    <view wx:if="{{problem.problem_box_problem.problemType === 'selection'}}">
+      <view wx:for="{{problem.problem_box_problem.selection_problem}}" wx:for-item="selection">
+        <view wx:if="{{problem.selectionAnswer === selection.id}}">
+          <text class="normal_text">我选择的答案：{{selection.contents}}</text>
+        </view>
+      </view>
+    </view>
+    <view wx:else>
+      <text class="normal_text">我填写的答案：{{problem.answer}}</text>
+    </view>
+  </view>
+</view>

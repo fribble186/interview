@@ -1,0 +1,9 @@
+/* pages/testDetail/testDetail.wxss */
+.problem_container{
+  margin: 20rpx;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #b0b0b0;
+  background: #fff;
+  border-radius: 10rpx;
+  box-shadow: 10rpx 10rpx 5rpx #debf51;
+}

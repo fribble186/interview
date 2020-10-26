@@ -1,0 +1,6 @@
+@function pr($px) { //$px为需要转换的字号
+  @return $px * 0.5px;
+}
+.gray_b{
+  background-color: rgba(255, 255, 255, 0.65);
+}

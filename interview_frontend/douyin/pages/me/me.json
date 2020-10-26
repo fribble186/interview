@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+    "LoginToast": "/components/loginToast/loginToast"
+  }
+}

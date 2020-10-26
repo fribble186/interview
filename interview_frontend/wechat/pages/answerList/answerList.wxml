@@ -1,0 +1,6 @@
+<!--pages/testList/testList.wxml-->
+<view class="flex_column">
+  <view wx:for="{{problem_box_list}}" wx:for-item="problem_box_detail">
+    <AnswerCard problem_box_detail="{{problem_box_detail}}"/>
+  </view>
+</view>

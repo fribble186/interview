@@ -1,0 +1,7 @@
+@function pr($px) { //$px为需要转换的字号
+  @return $px * 0.5px;
+}
+.form_container{
+  padding-right: 20%;
+  padding-top: pr(40);
+}

@@ -1,0 +1,37 @@
+<!--components/navBar.ttml-->
+<view tt:if="{{show}}" class="flex_column toast_container" catchtap="hideLogin">
+  <block tt:if="{{!showAccountFrom}}">
+    <view class="flex_column margin_left_40">
+      <text class="white bold margin_top_40">请登录</text>
+      <text class="white normal_text margin_top_20">学生账户登录可与微信账号绑定，实现数据互通</text>
+    </view>
+    <view class="flex_1 flex_column center">
+      <button class="login_button flex_column orange_b center blank_button" catchtap="showLoginFrom">
+        <text class="normal_text">学生账户登录</text>
+      </button>
+      <button class="login_button flex_column green_b center blank_button" open-type="getUserInfo" catchtap="loginByWx">
+        <text class="normal_text">抖音一键登录</text>
+      </button>
+    </view>
+  </block>
+
+  <block tt:if="{{showAccountFrom}}">
+    <view class="flex_column margin_left_40">
+      <text class="white bold margin_top_40">请登录</text>
+      <text class="white normal_text margin_top_20">学生账户登录可与微信账号绑定，实现数据互通</text>
+    </view>
+    <view class="flex_1 flex_column center">
+      <input class="normal_text" placeholder="请输入账号" catchtap="catch" bindinput="handleChangeCode" />
+      <input class="normal_text" placeholder="请输入密码" catchtap="catch" bindinput="handleChangePassword" password />
+      <view class="flex_row align_center width_100">
+        <button class="login_button2 flex_column green_b center blank_button" catchtap="hideLoginFrom" style="margin-left: 100rpx">
+          <text class="normal_text">返回</text>
+        </button>
+        <view class="margin_left_40" />
+        <button class="login_button2 flex_column orange_b center blank_button" catchtap="loginBySchool" style="margin-right: 100rpx">
+          <text class="normal_text">登录</text>
+        </button>
+      </view>
+    </view>
+  </block>
+</view>

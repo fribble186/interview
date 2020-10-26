@@ -1,0 +1,7 @@
+<!--index.ttml-->
+<view class="flex_column">
+  <LoginToast show="{{login_toast_show}}" />
+  <view tt:for="{{testsList}}" tt:for-item="testDetail">
+    <TestCard testDetail="{{testDetail}}" />
+  </view>
+</view>

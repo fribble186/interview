@@ -1,0 +1,17 @@
+<!--components/navBar.wxml-->
+<view class="flex_column padding_20 card_container">
+  <view class="flex_row align_center">
+    <image src="../../img/avatar.png" class="avatar margin_right_40"/>
+    <text class="title_text bold">{{testDetail.tests_enterprise.name}}</text>
+  </view>
+  <view class="flex_column">
+    <view><text class="normal_text">{{testDetail.name}}</text></view>
+    <!-- <view><text class="desc_text gray">{{testDetail.desc}}</text></view> -->
+  </view>
+  <view class="flex_row align_end">
+    <view><text class="mini_test gray">已有{{testDetail.test_count}}人面试</text></view>
+    <view class="flex_1" />
+    <view wx:if="{{testDetail.is_tested}}"><text class="normal_text">已面试</text></view>
+    <view wx:else class="start_button flex_row center" bindtap="go2detail" data-id="{{testDetail.id}}" data-canigo="{{testDetail.is_tested}}"><text class="normal_text">开始面试</text></view>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="flex_column">
+  <LoginToast show="{{login_toast_show}}"/>
+  <view wx:for="{{testsList}}" wx:for-item="testDetail">
+    <TestCard testDetail="{{testDetail}}"/>
+  </view>
+</view>

@@ -1,0 +1,6 @@
+<!--pages/testList/testList.ttml-->
+<view class="flex_column">
+  <view tt:for="{{problem_box_list}}" tt:for-item="problem_box_detail">
+    <AnswerCard problem_box_detail="{{problem_box_detail}}" />
+  </view>
+</view>

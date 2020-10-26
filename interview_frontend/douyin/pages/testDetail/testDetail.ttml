@@ -1,0 +1,65 @@
+<!--pages/testDetail/testDetail.ttml-->
+<view class="flex_column height_100">
+  <!-- <view class="flex_row padding_20 border_bottom_light">
+    <view wx:if="{{question_num > 0}}" class="flex_row center" bindtap="lastProblem">
+      <image src="../../img/left_arrow.png" class="arrow margin_right_20"/>
+      <text class="normal_text">上一题</text>
+    </view>
+    <view wx:else style="width: 125rpx"/>
+    <view class="flex_1 flex_row center">
+      <text class="normal_text">第{{question_num + 1}}/{{question_legth}}题</text>
+    </view>
+    <view wx:if="{{!last}}" class="flex_row center" bindtap="nextProblem">
+      <text class="normal_text">下一题</text>
+      <image src="../../img/right_arrow.png" class="arrow margin_left_20"/>
+    </view>
+    <view wx:else style="width: 125rpx"/>
+  </view> -->
+
+  <view class="width_100 flex_row center" style="margin-top: 120rpx">
+    <view class="indexer_container flex_row center">
+      <span class="white normal_text bold">{{question_num + 1}}/{{question_legth}}</span>
+    </view>
+  </view>
+  <view class="question_box_container flex_column center">
+    <view class="flex_column margin_top_40 width_100 center">
+      <text class="problem_text bold margin_20">{{question.contents}}</text>
+    </view>
+
+    <view class="flex_column margin_top_40 center width_100">
+      <view wx-if="{{question.problemType==='selection'}}" class="flex_column margin_top_20 width_100">
+        <view class="margin_20 flex_row {{question.selection_problem[0].id === answer ? 'selection' : 'unselection'}}" bindtap="changeAnswer" data-type="selection" data-id="{{question.selection_problem[0].id}}">
+          <text class="title_text bold margin_right_20">A</text>
+          <text class="title_text">{{question.selection_problem[0].contents}}</text>
+        </view>
+        <view class="margin_20 flex_row {{question.selection_problem[1].id === answer ? 'selection' : 'unselection'}}" bindtap="changeAnswer" data-type="selection" data-id="{{question.selection_problem[1].id}}">
+          <text class="title_text bold margin_right_20">B</text>
+          <text class="title_text">{{question.selection_problem[1].contents}}</text>
+        </view>
+        <view class="margin_20 flex_row {{question.selection_problem[2].id === answer ? 'selection' : 'unselection'}}" bindtap="changeAnswer" data-type="selection" data-id="{{question.selection_problem[2].id}}">
+          <text class="title_text bold margin_right_20">C</text>
+          <text class="title_text">{{question.selection_problem[2].contents}}</text>
+        </view>
+        <view class="margin_20 flex_row {{question.selection_problem[3].id === answer ? 'selection' : 'unselection'}}" bindtap="changeAnswer" data-type="selection" data-id="{{question.selection_problem[3].id}}">
+          <text class="title_text bold margin_right_20">D</text>
+          <text class="title_text">{{question.selection_problem[3].contents}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view wx-if="{{question.problemType==='answer'}}" class="flex_row margin_top_20 question_box_container margin_top_40">
+    <textarea placeholder="请作答" class="flex_1 normal_text textarea margin_20" bindinput="changeAnswer" value="{{answer}}" data-type="answer" />
+  </view>
+
+  <view class="flex_1" />
+  <view class="flex_row center" style="margin-bottom: 80rpx">
+    <view tt:if="{{question_num > 0}}" class="submit_button flex_row center margin_right_40" bindtap="lastProblem">
+      <text class="title_text">上一题</text>
+    </view>
+
+    <view class="submit_button flex_row center" bindtap="{{last? 'submit' : 'nextProblem'}}">
+      <text class="title_text">{{last? '提交' : '下一题'}}</text>
+    </view>
+  </view>
+</view>

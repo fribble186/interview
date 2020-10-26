@@ -1,0 +1,18 @@
+/* components/navBar.ttss */
+@import '../../app.ttss';
+.card_container{
+  margin: 20rpx;
+  border-bottom: 1rpx solid #b0b0b0;
+  background: #fff;
+  border-radius: 10rpx;
+  box-shadow: 10rpx 10rpx 5rpx #debf51;
+}
+.avatar{
+  width: 60rpx;
+  height: 60rpx
+}
+.start_button{
+  border-radius: 10rpx;
+  background-color: #FFD954;
+  padding: 20rpx 50rpx
+}

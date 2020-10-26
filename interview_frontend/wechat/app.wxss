@@ -1,0 +1,126 @@
+/**app.wxss**/
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background: #FFD954;
+}
+.blank_button{
+  padding:0;
+  margin:0;
+  flex-direction: column;
+  background-color: transparent;
+  border:none;
+  box-shadow: none;
+  border-radius: 0rpx;
+  z-index: 2
+}
+.blank_button::after {
+  border: none;
+}
+.width_100{
+  width: 100%;
+}
+.height_100{
+  height: 100%;
+}
+.flex_row{
+  display: flex;
+  flex-direction: row;
+}
+.flex_column{
+  display: flex;
+  flex-direction: column;
+}
+.flex_1{
+  flex: 1
+}
+.flex_basis_1{
+  flex-basis: 100%
+}
+.align_end{
+  align-items: flex-end;
+}
+.align_center{
+  align-items: center;
+}
+.justify_center{
+  justify-content: center;
+}
+.center{
+  align-items: center;
+  justify-content: center;
+}
+.margin_left_20{
+  margin-left: 20rpx;
+}
+.margin_top_20{
+  margin-top: 20rpx;
+}
+.margin_right_20{
+  margin-right: 20rpx;
+}
+.margin_bottom_20{
+  margin-bottom: 20rpx;
+}
+.margin_left_40{
+  margin-left: 40rpx;
+}
+.margin_right_40{
+  margin-right: 40rpx;
+}
+.margin_top_40{
+  margin-top: 40rpx;
+}
+.margin_bottom_40{
+  margin-bottom: 40rpx;
+}
+.margin_20{
+  margin: 20rpx 20rpx;
+}
+.padding_20{
+  padding: 20rpx;
+}
+.padding_30{
+  padding: 30rpx;
+}
+.fg{
+  width: 100%;
+  height: 40rpx;
+  background-color: #f8f8f8;
+}
+.border_bottom{
+  border-bottom: 1rpx solid #808080;
+}
+.border_bottom_light{
+  border-bottom: 1rpx solid #d8d8d8;
+}
+.problem_text{
+  font-size: 42rpx;
+  color: #debf51;
+}
+.title_text{
+  font-size: 26rpx;
+}
+.normal_text{
+  font-size: 24rpx;
+}
+.desc_text{
+  font-size: 22rpx;
+}
+.mini_test{
+  font-size: 18rpx;
+}
+.gray{
+  color: #808080
+}
+.red{
+  color: red
+}
+.bold{
+  font-weight: bold;
+}
+.white{
+  color: white;
+}

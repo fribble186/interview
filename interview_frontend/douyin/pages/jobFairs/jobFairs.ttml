@@ -1,0 +1,6 @@
+<!--pages/jobFairs/jobFairs.ttml-->
+<view class="flex_column">
+ <view tt:for="{{job_fairs_list}}" tt:for-item="job_fairs_detail">
+    <JobFairsCard job_fairs_detail="{{job_fairs_detail}}" />
+  </view>
+</view>

@@ -1,0 +1,41 @@
+<!--pages/me/me.ttml-->
+<view class="width_100 flex_column">
+  <LoginToast show="{{login_toast_show}}" />
+  <view class="flex_column padding_20 user_card_container">
+    <view class="flex_row align_center">
+      <view class="flex_row center avatar">
+        <image src="{{userAvatarUrl}}" class="avatar"></image>
+      </view>
+      <view class="margin_left_40 flex_column justify_center">
+        <view class="flex_row align_center">
+          <text class="normal_text">{{userNickName}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="flex_row">
+      <view class="flex_1" />
+      <button tt:if="{{!isBinding && login_status!=='dy'}}" open-type="getUserInfo" class="login_button flex_row center blank_button" bindtap="handleMultiLogin">
+        <text class="normal_text">{{login_status?login_status==='dy'?'一键绑定学校账户':'一键绑定抖音账户':'登录'}}</text>
+      </button>
+    </view>
+  </view>
+
+  <!-- <view class="flex_row align_center border_bottom_light padding_30 margin_top_40" bindtap="go2interview">
+    <image src="../../img/interview.png" class="icon margin_right_40"/>
+    <text class="normal_text bold">填写我的第一个面试问题</text>
+    <view class="flex_1"/>
+  </view> -->
+  <view class="flex_column operation_card_container">
+    <view class="flex_row align_center border_bottom_light padding_30" bindtap="go2answer">
+      <image src="../../img/testsy.png" class="icon margin_right_40" />
+      <text class="normal_text bold">我测试过的面试题</text>
+      <view class="flex_1" />
+    </view>
+    <view class="flex_row align_center border_bottom_light padding_30" bindtap="go2jobfair">
+      <image src="../../img/college.png" class="icon margin_right_40" />
+      <text class="normal_text bold">高校招聘会信息</text>
+      <view class="flex_1" />
+    </view>
+  </view>
+</view>

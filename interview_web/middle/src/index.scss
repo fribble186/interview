@@ -1,0 +1,99 @@
+@function pr($px) { //$px为需要转换的字号
+  @return $px * 0.5px;
+}
+.app_menu_header {
+  height: pr(128);
+  color: white;
+  padding-left: pr(48);
+  color: rgba(255, 255, 255, 0.65);
+}
+.form_title {
+  font-size: pr(50);
+  font-weight: bolder;
+  padding-left: pr(48);
+  margin-top: pr(48);
+}
+.descriptions {
+  font-size: pr(24);
+  padding: pr(0) pr(48);
+  margin-bottom: pr(20);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white !important;
+}
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  line-height: 1.5;
+  overflow: hidden;
+}
+.page{
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.scroll_y{
+  height: 100%;
+  overflow-y: scroll;
+}
+.width_100 {
+  width: 100% !important;
+}
+.height_100 {
+  height: 100%;
+}
+.flex_row{
+  display: flex;
+  flex-direction: row;
+}
+.flex_column{
+  display: flex;
+  flex-direction: column;
+}
+.flex_1{
+  flex: 1;
+}
+.align_center{
+  align-items: center;
+}
+.justify_center{
+  justify-content: center;
+}
+.center{
+  align-items: center;
+  justify-content: center;
+}
+.margin_left_30{
+  margin-left: pr(30);
+}
+.margin_top_30{
+  margin-top: pr(30);
+}
+.margin_right_30{
+  margin-right: pr(30);
+}
+.margin_bottom_30{
+  margin-bottom: pr(30);
+}
+.padding_20{
+  padding: pr(20)
+}
+.bold{
+  font-weight: bold;
+}
+.border_bottom{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+}

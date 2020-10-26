@@ -1,0 +1,10 @@
+@function pr($px) { //$px为需要转换的字号
+  @return $px * 0.5px;
+}
+
+.delete_icon{
+  margin: pr(0)  pr(100) pr(48) pr(100)
+}
+.test_post_form_container{
+  padding: pr(40)
+}

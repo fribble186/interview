@@ -1,0 +1,342 @@
+[
+    {
+        "time": "2020-06-12T03:25:54.675Z",
+        "type": "stdOut",
+        "message": "🛠️    Transform source project..."
+    },
+    {
+        "time": "2020-06-12T03:25:54.737Z",
+        "type": "transform wxml file suffix",
+        "file": "answerCard\\answerCard.wxml",
+        "message": "转换了视图文件后缀, wxml ==> ttml"
+    },
+    {
+        "time": "2020-06-12T03:25:54.738Z",
+        "type": "transform wxss file suffix",
+        "file": "answerCard\\answerCard.wxss",
+        "message": "转换了样式文件后缀, wxss ==> ttss"
+    },
+    {
+        "time": "2020-06-12T03:25:54.738Z",
+        "type": "transform wxml file suffix",
+        "file": "jobFairsCard\\jobFairsCard.wxml",
+        "message": "转换了视图文件后缀, wxml ==> ttml"
+    },
+    {
+        "time": "2020-06-12T03:25:54.738Z",
+        "type": "transform wxss file suffix",
+        "file": "jobFairsCard\\jobFairsCard.wxss",
+        "message": "转换了样式文件后缀, wxss ==> ttss"
+    },
+    {
+        "time": "2020-06-12T03:25:54.741Z",
+        "type": "transform wxml file suffix",
+        "file": "loginToast\\loginToast.wxml",
+        "message": "转换了视图文件后缀, wxml ==> ttml"
+    },
+    {
+        "time": "2020-06-12T03:25:54.741Z",
+        "type": "transform wxss file suffix",
+        "file": "loginToast\\loginToast.wxss",
+        "message": "转换了样式文件后缀, wxss ==> ttss"
+    },
+    {
+        "time": "2020-06-12T03:25:54.741Z",
+        "type": "transform wxml file suffix",
+        "file": "testCard\\testCard.wxml",
+        "message": "转换了视图文件后缀, wxml ==> ttml"
+    },
+    {
+        "time": "2020-06-12T03:25:54.741Z",
+        "type": "transform wxss file suffix",
+        "file": "testCard\\testCard.wxss",
+        "message": "转换了样式文件后缀, wxss ==> ttss"
+    },
+    {
+        "time": "2020-06-12T03:25:54.746Z",
+        "type": "transform wxml file suffix",
+        "file": "answerList\\answerList.wxml",
+        "message": "转换了视图文件后缀, wxml ==> ttml"
+    },
+    {
+        "time": "2020-06-12T03:25:54.747Z",
+        "type": "transform wxss file suffix",
+        "file": "answerList\\answerList.wxss",
+        "message": "转换了样式文件后缀, wxss ==> ttss"
+    },
+    {
+        "time": "2020-06-12T03:25:54.747Z",
+        "type": "transform wxml file suffix",
+        "file": "description\\description.wxml",
+        "message": "转换了视图文件后缀, wxml ==> ttml"
+    },
+    {
+        "time": "2020-06-12T03:25:54.747Z",
+        "type": "transform wxss file suffix",
+        "file": "description\\description.wxss",
+        "message": "转换了样式文件后缀, wxss ==> ttss"
+    },
+    {
+        "time": "2020-06-12T03:25:54.747Z",
+        "type": "transform wxml file suffix",
+        "file": "index\\index.wxml",
+        "message": "转换了视图文件后缀, wxml ==> ttml"
+    },
+    {
+        "time": "2020-06-12T03:25:54.747Z",
+        "type": "transform wxss file suffix",
+        "file": "index\\index.wxss",
+        "message": "转换了样式文件后缀, wxss ==> ttss"
+    },
+    {
+        "time": "2020-06-12T03:25:54.747Z",
+        "type": "transform wxml file suffix",
+        "file": "jobFairs\\jobFairs.wxml",
+        "message": "转换了视图文件后缀, wxml ==> ttml"
+    },
+    {
+        "time": "2020-06-12T03:25:54.747Z",
+        "type": "transform wxss file suffix",
+        "file": "jobFairs\\jobFairs.wxss",
+        "message": "转换了样式文件后缀, wxss ==> ttss"
+    },
+    {
+        "time": "2020-06-12T03:25:54.747Z",
+        "type": "transform wxml file suffix",
+        "file": "me\\me.wxml",
+        "message": "转换了视图文件后缀, wxml ==> ttml"
+    },
+    {
+        "time": "2020-06-12T03:25:54.747Z",
+        "type": "transform wxss file suffix",
+        "file": "me\\me.wxss",
+        "message": "转换了样式文件后缀, wxss ==> ttss"
+    },
+    {
+        "time": "2020-06-12T03:25:54.747Z",
+        "type": "transform wxml file suffix",
+        "file": "testDetail\\testDetail.wxml",
+        "message": "转换了视图文件后缀, wxml ==> ttml"
+    },
+    {
+        "time": "2020-06-12T03:25:54.747Z",
+        "type": "transform wxss file suffix",
+        "file": "testDetail\\testDetail.wxss",
+        "message": "转换了样式文件后缀, wxss ==> ttss"
+    },
+    {
+        "time": "2020-06-12T03:25:55.670Z",
+        "type": "transform function call arg name",
+        "file": "D:/interview/interview_frontend/douyin/app.js",
+        "row": 20,
+        "column": 4,
+        "before": "wx",
+        "after": "tt",
+        "message": "转换了上下文, wx ==> tt"
+    },
+    {
+        "time": "2020-06-12T03:25:55.673Z",
+        "type": "transform function call arg name",
+        "file": "D:/interview/interview_frontend/douyin/app.js",
+        "row": 33,
+        "column": 6,
+        "before": "wx",
+        "after": "tt",
+        "message": "转换了上下文, wx ==> tt"
+    },
+    {
+        "time": "2020-06-12T03:25:55.674Z",
+        "type": "transform function call arg name",
+        "file": "D:/interview/interview_frontend/douyin/app.js",
+        "row": 34,
+        "column": 6,
+        "before": "wx",
+        "after": "tt",
+        "message": "转换了上下文, wx ==> tt"
+    },
+    {
+        "time": "2020-06-12T03:25:55.675Z",
+        "type": "transform function call arg name",
+        "file": "D:/interview/interview_frontend/douyin/app.js",
+        "row": 38,
+        "column": 10,
+        "before": "wx",
+        "after": "tt",
+        "message": "转换了上下文, wx ==> tt"
+    },
+    {
+        "time": "2020-06-12T03:25:55.679Z",
+        "type": "transform function call arg name",
+        "file": "D:/interview/interview_frontend/douyin/app.js",
+        "row": 52,
+        "column": 18,
+        "before": "wx",
+        "after": "tt",
+        "message": "转换了上下文, wx ==> tt"
+    },
+    {
+        "time": "2020-06-12T03:25:55.762Z",
+        "type": "transform function call arg name",
+        "file": "D:/interview/interview_frontend/douyin/components/loginToast/loginToast.js",
+        "row": 52,
+        "column": 6,
+        "before": "wx",
+        "after": "tt",
+        "message": "转换了上下文, wx ==> tt"
+    },
+    {
+        "time": "2020-06-12T03:25:55.764Z",
+        "type": "transform function call arg name",
+        "file": "D:/interview/interview_frontend/douyin/components/loginToast/loginToast.js",
+        "row": 60,
+        "column": 10,
+        "before": "wx",
+        "after": "tt",
+        "message": "转换了上下文, wx ==> tt"
+    },
+    {
+        "time": "2020-06-12T03:25:55.765Z",
+        "type": "transform function call arg name",
+        "file": "D:/interview/interview_frontend/douyin/components/loginToast/loginToast.js",
+        "row": 64,
+        "column": 10,
+        "before": "wx",
+        "after": "tt",
+        "message": "转换了上下文, wx ==> tt"
+    },
+    {
+        "time": "2020-06-12T03:25:55.774Z",
+        "type": "transform function call arg name",
+        "file": "D:/interview/interview_frontend/douyin/components/loginToast/loginToast.js",
+        "row": 65,
+        "column": 10,
+        "before": "wx",
+        "after": "tt",
+        "message": "转换了上下文, wx ==> tt"
+    },
+    {
+        "time": "2020-06-12T03:25:55.804Z",
+        "type": "transform function call arg name",
+        "file": "D:/interview/interview_frontend/douyin/components/testCard/testCard.js",
+        "row": 24,
+        "column": 6,
+        "before": "wx",
+        "after": "tt",
+        "message": "转换了上下文, wx ==> tt"
+    },
+    {
+        "time": "2020-06-12T03:25:55.904Z",
+        "type": "transform function call arg name",
+        "file": "D:/interview/interview_frontend/douyin/pages/me/me.js",
+        "row": 20,
+        "column": 4,
+        "before": "wx",
+        "after": "tt",
+        "message": "转换了上下文, wx ==> tt"
+    },
+    {
+        "time": "2020-06-12T03:25:55.904Z",
+        "type": "transform function call arg name",
+        "file": "D:/interview/interview_frontend/douyin/pages/me/me.js",
+        "row": 30,
+        "column": 4,
+        "before": "wx",
+        "after": "tt",
+        "message": "转换了上下文, wx ==> tt"
+    },
+    {
+        "time": "2020-06-12T03:25:55.905Z",
+        "type": "transform function call arg name",
+        "file": "D:/interview/interview_frontend/douyin/pages/me/me.js",
+        "row": 41,
+        "column": 6,
+        "before": "wx",
+        "after": "tt",
+        "message": "转换了上下文, wx ==> tt"
+    },
+    {
+        "time": "2020-06-12T03:25:55.905Z",
+        "type": "transform function call arg name",
+        "file": "D:/interview/interview_frontend/douyin/pages/me/me.js",
+        "row": 49,
+        "column": 14,
+        "before": "wx",
+        "after": "tt",
+        "message": "转换了上下文, wx ==> tt"
+    },
+    {
+        "time": "2020-06-12T03:25:55.905Z",
+        "type": "transform function call arg name",
+        "file": "D:/interview/interview_frontend/douyin/pages/me/me.js",
+        "row": 53,
+        "column": 17,
+        "before": "wx",
+        "after": "tt",
+        "message": "转换了上下文, wx ==> tt"
+    },
+    {
+        "time": "2020-06-12T03:25:55.951Z",
+        "type": "transform function call arg name",
+        "file": "D:/interview/interview_frontend/douyin/pages/testDetail/testDetail.js",
+        "row": 71,
+        "column": 10,
+        "before": "wx",
+        "after": "tt",
+        "message": "转换了上下文, wx ==> tt"
+    },
+    {
+        "time": "2020-06-12T03:25:55.990Z",
+        "type": "transform function call arg name",
+        "file": "D:/interview/interview_frontend/douyin/utils/request.js",
+        "row": 7,
+        "column": 4,
+        "before": "wx",
+        "after": "tt",
+        "message": "转换了上下文, wx ==> tt"
+    },
+    {
+        "time": "2020-06-12T03:25:55.991Z",
+        "type": "transform function call arg name",
+        "file": "D:/interview/interview_frontend/douyin/utils/request.js",
+        "row": 18,
+        "column": 8,
+        "before": "wx",
+        "after": "tt",
+        "message": "转换了上下文, wx ==> tt"
+    },
+    {
+        "time": "2020-06-12T03:25:55.992Z",
+        "type": "transform function call arg name",
+        "file": "D:/interview/interview_frontend/douyin/utils/request.js",
+        "row": 26,
+        "column": 14,
+        "before": "wx",
+        "after": "tt",
+        "message": "转换了上下文, wx ==> tt"
+    },
+    {
+        "time": "2020-06-12T03:25:56.025Z",
+        "type": "stdOut",
+        "message": "🍻    Successfully transform js file"
+    },
+    {
+        "time": "2020-06-12T03:25:56.195Z",
+        "type": "stdOut",
+        "message": "🍻    Successfully transform wxml file"
+    },
+    {
+        "time": "2020-06-12T03:25:56.301Z",
+        "type": "stdOut",
+        "message": "🍻    Successfully transform wxss file"
+    },
+    {
+        "time": "2020-06-12T03:25:56.592Z",
+        "type": "stdOut",
+        "message": "🎊    Congratulations, transform done! Please check transform log in"
+    },
+    {
+        "time": "2020-06-12T03:25:56.592Z",
+        "type": "stdOut",
+        "message": "📝    D:\\interview\\interview_frontend\\douyin\\log.txt"
+    }
+]

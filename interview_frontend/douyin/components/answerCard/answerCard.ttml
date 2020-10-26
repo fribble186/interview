@@ -1,0 +1,35 @@
+<!--components/navBar.ttml-->
+<view class="flex_column padding_20 card_container margin_bottom_40">
+  <view class="flex_row align_center">
+    <image src="../../img/avatar.png" class="avatar margin_right_40" />
+    <text class="title_text bold">{{problem_box_detail.tests_simple.tests_enterprise.name}}</text>
+  </view>
+  <view class="flex_column">
+    <view class="flex_row margin_bottom_20 margin_top_20">
+      <text class="normal_text">试题名称：</text>
+      <text class="desc_text gray">{{problem_box_detail.tests_simple.name}}</text>
+    </view>
+    <view class="flex_row margin_bottom_20">
+      <image src="{{problem_box_detail.isCorrect?'../../img/success.png':'../../img/waiting.png'}}" class="status margin_right_20" />
+      <text class="title_text bold">{{problem_box_detail.isCorrect?'已批改':'待批改'}}</text>
+    </view>
+    <view tt:if="{{problem_box_detail.isCorrect}}" class="flex_row margin_bottom_20">
+      <text class="normal_text">企业评语：</text>
+      <text class="desc_text gray">{{problem_box_detail.desc}}</text>
+    </view>
+    <view tt:if="{{problem_box_detail.isCorrect}}" class="flex_row">
+      <text class="normal_text">！offer信息！</text>
+      <text class="desc_text gray">{{problem_box_detail.showBonus?problem_box_detail.tests_simple.bonus:'很可惜，没获得企业offer'}}</text>
+    </view>
+  </view>
+  <view class="flex_row margin_top_20">
+    <view class="flex_1" />
+    <view class="flex_row center"><text class="mini_test gray margin_right_20">选择题得分：{{problem_box_detail.selectionScore}}分</text></view>
+    <view class="flex_row center"><text class="mini_test gray margin_right_20">简答题得分：{{problem_box_detail.score - problem_box_detail.selectionScore}}分</text></view>
+    <view class="flex_row center">
+      <text class="normal_text">总分：</text>
+      <text class="normal_text bold red">{{problem_box_detail.score}}</text>
+      <text class="normal_text">分</text>
+    </view>
+  </view>
+</view>

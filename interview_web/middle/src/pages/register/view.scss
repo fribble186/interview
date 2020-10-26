@@ -1,0 +1,22 @@
+@function pr($px) { //$px为需要转换的字号
+  @return $px * 0.5px;
+}
+
+.active{
+  font-size: pr(80);
+  color: #1890ff
+}
+.inactive{
+  font-size: pr(50);
+  color: gray !important
+}
+.fg{
+  width: pr(10);
+  height: pr(100);
+  background-color: #1890ff;
+  border-radius: pr(20);
+}
+.formContainer{
+  padding-top: pr(40);
+  padding-right: 20%;
+}
